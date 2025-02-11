@@ -79,3 +79,7 @@ decimal c1 = 1.0M;
 decimal d1 = 3.0M;
 Console.WriteLine(c1 / d1);
 
+//Step 6 And Step 5 Challenge
+double radius = 2.50;
+double area = Math.PI * radius * radius;
+Console.WriteLine(area);
