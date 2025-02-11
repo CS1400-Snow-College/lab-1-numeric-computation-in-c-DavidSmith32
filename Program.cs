@@ -29,3 +29,18 @@ Console.WriteLine(d);
 
 d = (a + b) / c;
 Console.WriteLine(d);
+
+a = 7;
+b = 4;
+c = 3;
+d = (a + b) / c;
+int e = (a + b) % c;
+Console.WriteLine($"quotient: {d}");
+Console.WriteLine($"remainder: {e}");
+
+int max = int.MaxValue;
+int min = int.MinValue;
+Console.WriteLine($"The range of integers is {min} to {max}");
+
+int what = max + 3;
+Console.WriteLine($"An example of overflow: {what}");
